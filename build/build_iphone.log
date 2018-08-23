@@ -1,0 +1,232 @@
+
+2018-8-23 14:53:05
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.13.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 8.9.1
+  npm Version                 = 5.5.1
+
+Titanium CLI
+  CLI Version                 = 5.1.1
+
+Titanium SDK
+  SDK Version                 = 7.2.0.GA
+  SDK Path                    = /Users/manuel/Library/Application Support/Titanium/mobilesdk/osx/7.2.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/manuel/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 7.2.0.GA --project-dir /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami --target simulator --ios-version 11.4 --device-family universal --deploy-type development --device-id 1F13E819-E2CF-4C25-B1CD-D071168FFE83 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49843 --config-file /var/folders/vt/bdk5cw2x1gj6m8q7tmmd_ckh0000gp/T/build-1535053983058.json --no-banner --project-dir /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 1F13E819-E2CF-4C25-B1CD-D071168FFE83
+[TRACE]  [ioslib] Found iOS Simulator UDID 1F13E819-E2CF-4C25-B1CD-D071168FFE83
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
+[TRACE]  [ioslib]   UDID    = 1F13E819-E2CF-4C25-B1CD-D071168FFE83
+[TRACE]  [ioslib]   iOS     = 11.4
+[TRACE]  [ioslib] Autoselected Xcode: 9.4.1
+[DEBUG]  Detecting modules in /Users/manuel/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 7.1.0 @ /Users/manuel/Library/Application Support/Titanium/modules/android/facebook/7.1.0
+[DEBUG]  Detected android module: hyperloop 1.2.8 @ /Users/manuel/Library/Application Support/Titanium/modules/android/hyperloop/1.2.8
+[DEBUG]  Detected android module: hyperloop 3.0.5 @ /Users/manuel/Library/Application Support/Titanium/modules/android/hyperloop/3.0.5
+[DEBUG]  Detected android module: ti.cloudpush 5.1.0 @ /Users/manuel/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.1.0
+[DEBUG]  Detected android module: ti.cloudpush 5.1.2 @ /Users/manuel/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.1.2
+[DEBUG]  Detected android module: ti.identity 2.1.0 @ /Users/manuel/Library/Application Support/Titanium/modules/android/ti.identity/2.1.0
+[DEBUG]  Detected android module: ti.map 4.1.1 @ /Users/manuel/Library/Application Support/Titanium/modules/android/ti.map/4.1.1
+[DEBUG]  Detected android module: ti.playservices 11.0.40 @ /Users/manuel/Library/Application Support/Titanium/modules/android/ti.playservices/11.0.40
+[DEBUG]  Detected android module: ti.touchid 3.0.1 @ /Users/manuel/Library/Application Support/Titanium/modules/android/ti.touchid/3.0.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/manuel/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.1.0 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.1.0
+[DEBUG]  Detected iphone module: facebook 5.7.0 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/facebook/5.7.0
+[DEBUG]  Detected iphone module: hyperloop 1.2.8 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
+[DEBUG]  Detected iphone module: hyperloop 3.0.5 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.1 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.1
+[DEBUG]  Detected iphone module: ti.identity 1.0.3 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/ti.identity/1.0.3
+[DEBUG]  Detected iphone module: ti.map 3.0.2 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
+[DEBUG]  Detected iphone module: ti.touchid 2.1.4 @ /Users/manuel/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.4
+[DEBUG]  Detected windows module: hyperloop 3.0.5 @ /Users/manuel/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.5
+[DEBUG]  Looking for Titanium module id=hyperloop version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=hyperloop version=3.0.5 platform=iphone deploy-type=development path=/Users/manuel/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.5
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=development path=/Users/manuel/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Checking if log server port 49552 is available
+[DEBUG]  Log server port 49552 is in use, testing if it's the app we're building
+[DEBUG]  The log server port is being used by the app being built, continuing
+[DEBUG]  Titanium SDK iOS directory: /Users/manuel/Library/Application Support/Titanium/mobilesdk/osx/7.2.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 11.4
+[INFO]   Building for iOS Simulator: iPhone 5s
+[DEBUG]  UDID: 1F13E819-E2CF-4C25-B1CD-D071168FFE83
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 11.4
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Team ID: n/a
+[INFO]   Minimum iOS version: 8.0
+[INFO]   Logging enabled on port 49552
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  Starting third-party framework detection
+[DEBUG]  Using Hyperloop library -> libhyperloop-jscore.a
+[DEBUG]  [Hyperloop] No CocoaPods Podfile found. Skipping ...
+[TRACE]  offline build file /var/folders/vt/bdk5cw2x1gj6m8q7tmmd_ckh0000gp/T/build-1dbba380faec677c8ceb16379ad094fa9bc288cb.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 4566.084 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 1 native module library
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/cliente.twitter.uami.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/cliente.twitter.uami.entitlements
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/cliente_twitter_uami_Prefix.pch
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/cliente.twitter.uami.xcodeproj/xcshareddata/xcschemes/cliente_twitter_uami.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/debugger.plist
+[DEBUG]  Skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Analyzing CommonJS module: ti.cloud
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  Found generated 1024x1024 app icon: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Marketing.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   Creating assets image set
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/535901296af310dd442ffc8c0a27ef6aef80a114.imageset/Contents.json
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/620d7886de54fab27908af1faf5d28e35bac51ef.imageset/Contents.json
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/bcf29364b8f09e13c22fa82e68a2f77d1ff45c68.imageset/Contents.json
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/Contents.json
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/Contents.json
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/LICENSE
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/manifest
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/package.json
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-2436h@3x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-2436h@3x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/535901296af310dd442ffc8c0a27ef6aef80a114.imageset/fondoPrincipal.jpg
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/620d7886de54fab27908af1faf5d28e35bac51ef.imageset/iconoPt.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/bcf29364b8f09e13c22fa82e68a2f77d1ff45c68.imageset/iconoT.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1@3x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2@2x.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2@3x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying and minifying /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/Resources/app.js => /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/app.js
+[DEBUG]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/app.js
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/common/FirstView.js
+[DEBUG]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/common/FirstView.js
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/handheld/ApplicationWindow.js
+[DEBUG]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/handheld/ApplicationWindow.js
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/handheld/android/ApplicationWindow.js
+[DEBUG]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/handheld/android/ApplicationWindow.js
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/tablet/ApplicationWindow.js
+[DEBUG]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ui/tablet/ApplicationWindow.js
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/ti.cloud.js
+[DEBUG]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: ja/strings.xml
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/en.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ja.lproj/Localizable.strings
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Starting Hyperloop assembly
+[INFO]   Skipping Hyperloop compile, no usage found ...
+[INFO]   Finished Hyperloop assembly in 0 seconds
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 523ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
+[TRACE]  [ioslib]   UDID    = 1F13E819-E2CF-4C25-B1CD-D071168FFE83
+[TRACE]  [ioslib]   iOS     = 11.4
+[TRACE]  [ioslib] Autoselected Xcode: 9.4.1
+[TRACE]  [ioslib] Checking if the simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
+[TRACE]  [ioslib] Simulator is running (pid 9816)
+[TRACE]  [ioslib] Waiting for simulator to boot...
+[TRACE]  [ioslib] Simulator is booted!
+[TRACE]  [ioslib] iPhone 5s Simulator already running with the correct UDID
+[TRACE]  [ioslib] Tailing iPhone 5s Simulator system log: /Users/manuel/Library/Logs/CoreSimulator/1F13E819-E2CF-4C25-B1CD-D071168FFE83/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/manuel/Library/Application Support/Titanium/mobilesdk/osx/7.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 5s Simulator successfully focused
+[TRACE]  [ioslib] Installing the app
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Trying to connect to log server port 49552...
