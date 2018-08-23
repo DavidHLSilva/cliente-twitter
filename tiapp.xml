@@ -5,13 +5,13 @@
     <version>1.0</version>
     <publisher>manuel</publisher>
     <url/>
-    <description/>
+    <description>undefined</description>
     <copyright>2018 by manuel</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>3ef8f346-43a7-4684-9eee-39466c614149</guid>
+    <guid>179ad594-eb8c-408f-9bbb-daf98d29cae7</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <property name="run-on-main-thread" type="bool">true</property>
     <ios>

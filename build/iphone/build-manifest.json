@@ -3175,15 +3175,25 @@
 			"mtime": "2018-08-23T19:23:28.397Z",
 			"size": 54705
 		},
+		"assets/Home/hachis.png": {
+			"hash": "9a898cc0658ef46f56c2d2dc2eac1f80",
+			"mtime": "2018-08-23T21:47:53.937Z",
+			"size": 1007
+		},
 		"assets/Home/iconoPt.png": {
-			"hash": "6b013842e5b9857c7ea9e7da6e0c6d78",
-			"mtime": "2018-08-23T19:36:06.556Z",
-			"size": 543
+			"hash": "3f3043201e8efe848a329822a428e204",
+			"mtime": "2018-08-23T21:28:47.319Z",
+			"size": 1431
 		},
 		"assets/Home/iconoT.png": {
 			"hash": "f7d803dc70ff2d5104df12077672320d",
 			"mtime": "2018-08-23T19:23:28.397Z",
 			"size": 2802
+		},
+		"assets/Home/logout.png": {
+			"hash": "4b12051e628287af66b59e489eaefc15",
+			"mtime": "2018-08-23T21:33:39.323Z",
+			"size": 920
 		},
 		"assets/images/tab1.png": {
 			"hash": "101b7e0edb0f6eaaf8496a794a5c1c2c",
@@ -3264,9 +3274,9 @@
 	"publisher": "manuel",
 	"url": "",
 	"version": "1.0",
-	"description": "",
+	"description": "undefined",
 	"copyright": "2018 by manuel",
-	"guid": "3ef8f346-43a7-4684-9eee-39466c614149",
+	"guid": "179ad594-eb8c-408f-9bbb-daf98d29cae7",
 	"useAppThinning": true,
 	"skipJSMinification": true,
 	"encryptJS": false,

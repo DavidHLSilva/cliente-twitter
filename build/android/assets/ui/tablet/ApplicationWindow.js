@@ -1,0 +1,1 @@
+/Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/Resources/ui/tablet/ApplicationWindow.js
