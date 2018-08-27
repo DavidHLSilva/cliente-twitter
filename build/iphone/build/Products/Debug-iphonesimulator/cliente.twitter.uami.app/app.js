@@ -92,15 +92,6 @@ var win_tw = Titanium.UI.createWindow({
 	layout: 'vertical'
 });
 
-//var tabGroup = Titanium.UI.createTabGroup(); 
-/*
-var mainTab = Titanium.UI.createTab({ 
-    title: "Twitter", 
-    icon: "assets/Home/iconoPt.png",
-    window: win_tw  // We will create the window "mainWin" 
-});*/
-//tabGroup.addTab(mainTab);
-
 var view_supTw = Titanium.UI.createView({
 	//backgroundColor : 'white',
 	width: Titanium.UI.FILL,
@@ -124,19 +115,19 @@ var view_supLogu = Titanium.UI.createView({
 	layout: 'absolute'
 });
 
-var img_supIcon = Titanium.UI.createImageView({
+var img_supIconTw = Titanium.UI.createImageView({
 	image: 'assets/Home/iconoPt.png',
 	height: '50%',
-	left: '7dp'
+	left: '15dp'
 });
 
 var img_loguIcon = Titanium.UI.createImageView({
 	image: 'assets/Home/logout.png',
 	height: '40%',
-	right: '7dp'
+	right: '15dp'
 });
 win_tw.add(view_supTw);
-view_supIcon.add(img_supIcon);
+view_supIcon.add(img_supIconTw);
 view_supLogu.add(img_loguIcon);
 view_supTw.add(view_supIcon);
 view_supTw.add(view_supLogu);
@@ -168,22 +159,185 @@ var view_iTweetaer = Titanium.UI.createView({
 var img_iTweetear = Titanium.UI.createImageView({
 	image: 'assets/Home/hachis.png',
 	height: '50%',
-	right: '7dp'
+	right: '15dp'
 });
 
 view_iTweetaer.add(img_iTweetear);
 view_infTw.add(view_iTweetaer);
 win_tw.add(view_infTw);
 
+/**
+*---------------EVENTOS SESION, ACTUALIZAR TIME LINE Y TWEETEAR----------------------
+*/
+
 lab_sesion.addEventListener('click', function(e){
+	//validar la sesion con tokens
 	win_tw.open();
 	win.close();
 });
+
 img_loguIcon.addEventListener('click', function(e){
+	//cerrar la sesion actual
 	win.open();
 });
+
+img_supIconTw.addEventListener('click', function(e){
+	//actualiza la time line
+	loadTweets(datos);
+});
+
+img_iTweetear.addEventListener('click', function(e){
+	
+	win_tweetear.open();
+	boton_cancelar.addEventListener('click', function(e){
+		win_tweetear.close();
+	});
+	
+	boton_twettear.addEventListener('click', function(e){
+		var aux = text_tweetear.value;
+		var salir = 0;
+		if(aux.length <= 280 && aux.length > 0){
+			console.log(aux);
+			win_tweetear.close();
+			salir = 1;
+		}
+		if (salir == 0){
+			alert('Ups!! Algo salio mal');
+			salir = 1;}
+	});
+});
+
+var win_tweetear = Titanium.UI.createWindow({
+	backgroundGradient: {
+   		type: 'linear',
+    	colors: ['#27A6F9', '#CEE9FB'],
+    	startPoint: { x: 0, y: '100%' },
+    	endPoint: { x: '100%', y: 0 },
+  },
+    title: 'Tweetear',
+	width: '80%',
+	height: '50%',
+	layout: 'vertical',
+	borderRadius: 10,
+	borderColor: 'black'
+}) ;
+
+var text_tweetear = Titanium.UI.createTextArea({
+	borderWidth: 2,
+  	borderColor: 'black',
+  	borderRadius: 5,
+  	font: {fontSize:14, fontWeight:'bold'},
+  	textAlign: 'left',
+  	value: '¿Qué está pasando? (max 280 caracteres)',
+  	top: 20,
+  	width: 230, 
+  	height : 150
+});
+
+var boton_twettear = Titanium.UI.createButton({
+	title: 'Aceptar',
+	width: 100,
+	height: 50
+});
+
+var boton_cancelar = Titanium.UI.createButton({
+	title: 'Cancelar',
+	width: 100,
+	height: 50
+});
+win_tweetear.add(text_tweetear);
+win_tweetear.add(boton_twettear);
+win_tweetear.add(boton_cancelar);
   
-//tabGroup.open();
+/**
+*---------------TWITTER TIMELINE DATOS----------------------
+*/
 
+var fileName = 'prueba_twitter.json'; 
+var file = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, fileName);     
+var preParseData = (file.read().text);
 
+var datos = JSON.parse(preParseData);
+console.log("prueba", datos);
 
+/**
+*---------------TWITTER TIMELINE VISTA----------------------
+*/
+
+function loadTweets(response){
+	var rowData = [];
+	for (var i = 0; i < response.length; i++){
+		var tweet = response[i].text;
+		var user = response[i].user.screen_name;
+		var avatar = response[i].user.profile_image_url;
+		
+		var row = Titanium.UI.createTableViewRow({height: 110});
+		
+		var post_view = Titanium.UI.createView({
+			height: 'auto',
+			top: 5,
+			right: 5,
+			bottom: 5,
+			left: 5,
+			layout: 'vertical'
+		});
+		
+		var av_image = Titanium.UI.createImageView({
+			image: avatar,
+			top: 0,
+			left: 0,
+			height: 48,
+			width: 48
+		});
+		post_view.add(av_image);
+		
+		var user_lbl = Titanium.UI.createLabel({
+			text: user,
+			color: 'black',
+			left: 54,
+			top: -48,
+			bottom: 2,
+			width: 120,
+			height: 16,
+			textAlign: 'left',
+			font:{
+				fontFamily: 'Trebuchet MS',
+				fontSize: 14,
+				fontWeight: 'bold'
+			}
+		});
+		
+		post_view.add(user_lbl);
+		
+		var tweet_lbl = Titanium.UI.createLabel({
+			color: 'black',
+			left: 54,
+			top: 2,
+			bottom: 2,
+			height: 'auto',
+			width: 236,
+			textAlign: 'top',
+			font:{
+				fontSize: 14
+			}
+		});
+
+		tweet_lbl.text = tweet;
+
+		post_view.add(tweet_lbl);
+		row.add(post_view);
+		
+		//row.className = 'item' + i;
+		rowData[i] = row;
+		
+	}
+	var tableView = Titanium.UI.createTableView({
+   		data: rowData,
+		left: 5,
+		right: 5
+	});
+	view_cenTw.add(tableView);
+	
+} 
+
+loadTweets(datos);

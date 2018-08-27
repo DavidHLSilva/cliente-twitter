@@ -1,5 +1,5 @@
 
-2018-8-23 16:53:53
+2018-8-27 15:39:35
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/manuel/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 7.2.0.GA --project-dir /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami --target simulator --ios-version 11.4 --device-family universal --deploy-type development --device-id 1F13E819-E2CF-4C25-B1CD-D071168FFE83 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 54663 --config-file /var/folders/vt/bdk5cw2x1gj6m8q7tmmd_ckh0000gp/T/build-1535061231204.json --no-banner --project-dir /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami
+  /usr/local/bin/node /Users/manuel/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 7.2.0.GA --project-dir /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami --target simulator --ios-version 11.4 --device-family universal --deploy-type development --device-id 1F13E819-E2CF-4C25-B1CD-D071168FFE83 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51776 --config-file /var/folders/vt/bdk5cw2x1gj6m8q7tmmd_ckh0000gp/T/build-1535402372666.json --no-banner --project-dir /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 1F13E819-E2CF-4C25-B1CD-D071168FFE83
 [TRACE]  [ioslib] Found iOS Simulator UDID 1F13E819-E2CF-4C25-B1CD-D071168FFE83
@@ -84,7 +84,7 @@ Command
 [DEBUG]  [Hyperloop] No CocoaPods Podfile found. Skipping ...
 [TRACE]  offline build file /var/folders/vt/bdk5cw2x1gj6m8q7tmmd_ckh0000gp/T/build-defefaaaf16b18ea62c212d83968764f5e7dc5db.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 3095.421 sec ago
+[TRACE]  optimizing build, last build was 18632.31 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 1 native module library
@@ -156,6 +156,7 @@ Command
 [TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/Contents.json
 [TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/Contents.json
 [DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/prueba_twitter.json
 [TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/LICENSE
 [TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/manifest
 [TRACE]  No change, skipping /Users/manuel/Documents/Appcelerator_Studio_Workspace/cliente.twitter.uami/build/iphone/build/Products/Debug-iphonesimulator/cliente.twitter.uami.app/ti.cloud/package.json
@@ -217,14 +218,14 @@ Command
 [INFO]   Skipping Hyperloop compile, no usage found ...
 [INFO]   Finished Hyperloop assembly in 0 seconds
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 161ms
+[INFO]   Finished building the application in 1s 444ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
 [TRACE]  [ioslib]   UDID    = 1F13E819-E2CF-4C25-B1CD-D071168FFE83
 [TRACE]  [ioslib]   iOS     = 11.4
 [TRACE]  [ioslib] Autoselected Xcode: 9.4.1
 [TRACE]  [ioslib] Checking if the simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
-[TRACE]  [ioslib] Simulator is running (pid 20124)
+[TRACE]  [ioslib] Simulator is running (pid 26964)
 [TRACE]  [ioslib] Waiting for simulator to boot...
 [TRACE]  [ioslib] Simulator is booted!
 [TRACE]  [ioslib] iPhone 5s Simulator already running with the correct UDID
